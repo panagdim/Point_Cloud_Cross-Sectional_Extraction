@@ -1,18 +1,30 @@
-About:
-This application was developed and completed in early 2015. It is designed to extract tree cross-sections, primarily for measuring Diameter at Breast Height (DBH) [1.27–1.33 m], from photogrammetric and LiDAR point clouds.
+📌 Project Background
 
-The tool can also extract cross-sections at different heights along the trunk by modifying the height setting in the source code (Form1.cs) to suit your needs.
+This application was originally developed and completed in early 2015. 
+It is designed to extract tree cross-sections from photogrammetric and LiDAR point clouds, with a primary focus on estimating Diameter at Breast Height (DBH) within the standard range of 1.27–1.33 m.
 
-Features & Usage:
+🌳 Functionality
+Extracts tree stem cross-sections from point cloud data
+Optimized for DBH measurement at breast height
+Supports both photogrammetric and LiDAR-derived point clouds
 
-Easy to use: simply run the application and follow the steps.
-Ensure your point cloud is normalized in the z-axis (height) before uploading. You can normalize using software such as LasTools, CloudCompare, or others.
-Supports three input file formats: TXT, CSV, and XYZ.
-Remember to click the Save button before closing the application to export your results.
-Processing time depends on file size, but the application can handle relatively large point clouds efficiently.
+Additionally, the application allows the extraction of cross-sections at custom heights along the tree stem. This can be achieved by modifying the height parameter directly in the source code:
 
-Application: Forestry
+📄 File: Form1.cs
+⚙️ Adjust the height value to match your specific analysis requirements
+⚙️ Usage Notes
+▶️ Easy to use: Simply run the application and follow the on-screen instructions
+📏 Pre-processing required: Ensure your point cloud is normalized along the Z-axis (height) before importing
+You can use tools such as LasTools, CloudCompare, or similar software
+📂 Supported formats:
+.txt
+.csv
+.xyz
+💾 Save your work: Always click the Save button before closing the application to export results
+⚡ Performance: Processing time depends on file size, but the application is optimized to handle relatively large point clouds efficiently
 
-Contributors: Dimitrios Panagiotidis
+Application Domain: Forestry
+
+Contributors: Dimitris Panagiotidis
 
  
